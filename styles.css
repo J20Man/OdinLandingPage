@@ -6,11 +6,11 @@ body {
 }
 
 img {
-    border: 1px solid white;
     border-radius: 4px;
     padding: 5px;
     width: 300px;
     height: 150px;
+    border: 1px solid white;
 }
 
 button {
@@ -75,9 +75,44 @@ button {
 
 .info {
     color: #1F2937;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .info h3 {
     font-size: 36px;
     font-weight: 900;
+}
+#boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border: 10px;
+    border-color: #3882f6; */
+}
+
+.containers img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px;
+    padding: 0px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote {
+    color: black;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    padding: 20px;
+    border: 0px;
+    margin 0px;
+}
+
+.quote h3 {
+    text-align: right;
 }
